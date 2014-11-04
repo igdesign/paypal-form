@@ -1,1 +1,15 @@
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap";
+
+.btn-paypal {
+    @include button-variant(#fff, #ffb900, #fab500);
+}
+
+.btn-paypal .first {
+    color: #253b80;
+    font-weight: 800;
+}
+
+.btn-paypal .second {
+    color: #179bd7;
+    font-weight: 800;
+}

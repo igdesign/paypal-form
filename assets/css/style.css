@@ -5418,5 +5418,29 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+.btn-paypal {
+  color: #fff;
+  background-color: #ffb900;
+  border-color: #fab500; }
+  .btn-paypal:hover, .btn-paypal:focus, .btn-paypal.focus, .btn-paypal:active, .btn-paypal.active, .open > .btn-paypal.dropdown-toggle {
+    color: #fff;
+    background-color: #cc9400;
+    border-color: #bd8900; }
+  .btn-paypal:active, .btn-paypal.active, .open > .btn-paypal.dropdown-toggle {
+    background-image: none; }
+  .btn-paypal.disabled, .btn-paypal.disabled:hover, .btn-paypal.disabled:focus, .btn-paypal.disabled.focus, .btn-paypal.disabled:active, .btn-paypal.disabled.active, .btn-paypal[disabled], .btn-paypal[disabled]:hover, .btn-paypal[disabled]:focus, .btn-paypal[disabled].focus, .btn-paypal[disabled]:active, .btn-paypal[disabled].active, fieldset[disabled] .btn-paypal, fieldset[disabled] .btn-paypal:hover, fieldset[disabled] .btn-paypal:focus, fieldset[disabled] .btn-paypal.focus, fieldset[disabled] .btn-paypal:active, fieldset[disabled] .btn-paypal.active {
+    background-color: #ffb900;
+    border-color: #fab500; }
+  .btn-paypal .badge {
+    color: #ffb900;
+    background-color: #fff; }
+
+.btn-paypal .first {
+  color: #253b80;
+  font-weight: 800; }
+
+.btn-paypal .second {
+  color: #179bd7;
+  font-weight: 800; }
 
 /*# sourceMappingURL=style.css.map */
